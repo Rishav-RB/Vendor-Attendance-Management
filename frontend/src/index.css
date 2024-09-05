@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-img {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./assets/tata_pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* The background image will stay fixed when scrolling */
+}
